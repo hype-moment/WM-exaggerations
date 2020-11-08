@@ -1,0 +1,78 @@
+# > Default Font
+DefaultFont "xft:Nasa :size=12"
+
+# > Place It On Center instead of MinOverlapPlacement
+Style * PositionPlacement Center
+Style * !GrabFocusOff, UsePPosition
+
+## Transient Windows, Such as Open File Windows
+Style * DecorateTransient, StackTransientParent
+Style * FPGrabFocusTransient, FPReleaseFocusTransient
+
+## Window Shade / Roll Up
+Style * WindowShadeScrolls, WindowShadeSteps 30
+
+## Disable Icons from Appearing on Desktop
+Style * !Icon
+
+Style * CascadePlacement
+
+# Sets all windows to OpaqueMove (vs a wired frame) and  windows will
+# snap to each other and the edge of the screen.
+
+OpaqueMoveSize unlimited
+Style * ResizeOpaque, SnapAttraction 50 SameType ScreenAll, SnapGrid
+
+Style tint2 !Title, PositionPlacement Right, !Borders, !Handles, Sticky, \
+                 !WindowListSkip, !NeverFocus, Layer 6
+
+Style xfce4-panel !Title, PositionPlacement Right, !Borders, Handles, Sticky, \
+                 WindowListSkip, NeverFocus, Layer 1
+
+Style plank !Title, !Borders
+
+Style feh PositionPlacement Center, !Title, Borders
+
+Style viewnior PositionPlacement Center, Title, Borders
+
+Style * chromium PositionPlacement Center
+
+Style "xfce4-terminal" PositionPlacement Center
+
+Style thunar PositionPlacement Center
+
+Style lxappearance PositionPlacement Center
+
+Style subl PositionPlacement Center
+
+Style krita PositionPlacement Center
+
+Style ConfirmQuit !Title, PositionPlacement Center, WindowListSkip, Layer 6
+
+
+DesktopSize 3x3
+DesktopName 0 1
+DesktopName 1 2
+DesktopName 2 3
+DesktopName 3 4
+DesktopName 4 5
+DesktopName 5 6
+DesktopName 6 7
+DesktopName 7 8
+DesktopName 8 9
+DesktopName 9 10
+
+## Workspace
+EdgeScroll 0 0
+EdgeResistance 0
+EdgeThickness 0
+Style * EdgeMoveDelay 350
+Style * EdgeMoveResistance 350
+# > EmwhBaseStruts [left] [right] [top] [bottom]
+EwmhBaseStruts 		 15     15 	    10	   10
+
+# Hide geometry window when moving and resizing
+HideGeometryWindow    Always
+Style * BorderUnderTitle
+Style * ResizeOutlineThin
+

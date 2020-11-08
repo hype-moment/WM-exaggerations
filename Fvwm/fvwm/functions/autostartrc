@@ -1,0 +1,16 @@
+
+# >> Start or restart
+DestroyFunc StartFunction
+AddToFunc   StartFunction
+
+DestroyFunc InitFunction
+AddToFunc InitFunction
++ I Exec exec sh ~/.fvwm/scripts/blur.sh 
++ I Exec exec sh ~/.fvwm/scripts/tint2-launcher.sh
++ I Exec exec picom 
++ I Exec exec plank 
++ I Exec exec volumeicon 
++ I Exec exec xrandr -s 1600x900
++ I Exec exec ~/.fehbg 
++ I Exec exec setxkbmap -model abnt2 -layout br -variant abnt2 
++ I Exec exec dunst 

@@ -1,0 +1,37 @@
+
+SetEnv quit $[HOME]/.fvwm/Quit/
+
+Colorset 3 fg #FFFFFF, bg #121212, sh #121212, hi #121212, bg #121212 \
+Colorset 4 fg #FFFFFF, bg #200090, sh Black, hi #202070
+
+Colorset 7 RootTransparent, fg #FFFFFF, bg #121212,\
+   hi #121212 , sh #121212, Tint #121212 60, bgTint #121212 60
+
+MenuStyle * MenuColorset 7, ActiveColorset 4, GreyedColorset 3, TitleColorset 1
+MenuStyle * Hilight3DOff, HilightBack, HilightTitleBack, SeparatorsLong
+MenuStyle * TrianglesSolid, TrianglesUseFore
+MenuStyle * PopupDelayed, PopupDelay 300, PopdownImmediately
+MenuStyle * AnimationOn, AutomaticHotkeysOn
+MenuStyle * PopupOffset -5 100, TitleWarpOn
+MenuStyle * BorderWidth 3
+#MenuStyle * ItemFormat "%|%3.1i%5.3l%5.3>%|"
+MenuStyle * ItemFormat "%|%5.5i%1.3l%2.3>%|"
+MenuStyle * Font "xft:Sans:Bold:size=15:antialias=True"
+
+# Root Menu
+#
+# The root menu will PopUp with a click in the root
+# window or using alt-f1 (or menu).
+DestroyMenu MenuFvwmRoot
+AddToMenu   MenuFvwmRoot "Fvwm" Title
++ "Window Bar Position" Exec exec $[HOME]/.fvwm/scripts/Set_Window_Bar.sh
++ "" Nop
++ "Window Icons" Exec exec $[HOME]/.fvwm/scripts/icons-bar.sh 
++ "" Nop
++ "Music Control" Exec exec $[HOME]/.fvwm/scripts/mpd.sh 
++ "" Nop
++ "Print" Exec exec $[HOME]/.fvwm/scripts/print.sh 
++ "" Nop
++ "Quit%icons/quit.png%" Module FvwmScript FvwmScript-ConfirmQuit
++ "Refresh%icons/refresh.png%" Refresh
++ "Restart%icons/restart.png%" Restart

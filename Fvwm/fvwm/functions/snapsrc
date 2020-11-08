@@ -1,0 +1,48 @@
+## To Toggle The Titlebar
+DestroyFunc ToggleTitle
+AddToFunc   ToggleTitle
++ I ThisWindow (State 1) WindowStyle !Title
++ I TestRc (Match) State 1 False
++ I TestRc (Match) Break
++ I WindowStyle !Title
++ I State 1 False
+
+# >> Window Snapping
+# >> Snap left
+DestroyFunc SnapLeft
+AddToFunc SnapLeft
++ I Move 0 0
++ I Maximize True 50 100
++ I Raise
+
+# >> Snap right
+DestroyFunc SnapRight
+AddToFunc SnapRight
++ I Maximize True 50 100
++ I Move -0 0
++ I Raise
+
+# >> Zoom unmaximize large
+DestroyFunc SnapHalf
+AddToFunc SnapHalf
++ I Maximize True 100 50 
++ I Move -0 0
++ I Raise
+
+# >> Zoom unmaximize small
+DestroyFunc SnapQuarter
+AddToFunc SnapQuarter
++ I Maximize True 100 50
++ I Move 0 -0
++ I Raise
+
+## Raising Window
+DestroyFunc RaiseMoveX
+AddToFunc RaiseMoveX
++ I Raise
++ M $0
++ D $1
+DestroyFunc RaiseMove
+AddToFunc RaiseMove
++ I Raise
++ M $0
