@@ -17,6 +17,6 @@ case $Look in
 $cir) sed -i 's/icons\/.*/icons\/circles/g' ~/.fvwm/config 	;;
 $blo) sed -i 's/icons\/.*/icons\/blocks/g' ~/.fvwm/config 	;;
 $w10) sed -i 's/icons\/.*/icons\/w10/g' ~/.fvwm/config 	;; 
-$mac) sed -i 's/icons\/.*/icons\/mac/g' ~/.fvwm/config 	;;
+$mac) sed -i 's/icons\/.*/icons\/macos/g' ~/.fvwm/config 	;;
 
 esac
