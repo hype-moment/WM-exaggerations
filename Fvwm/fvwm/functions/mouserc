@@ -20,6 +20,23 @@ Mouse 5 T A WindowShade False 						# Desenrrola a janela
 
 Mouse 1 A 4 Move 									# Super + click direito do mouse dentro da janela, move a janela
 
-## Menus
-Mouse 1 R A Exec exec sh ~/.fvwm/scripts/Tools.sh 	# Abre um menu na tela, que contem submenus
-Mouse 3 R A Menu MenuFvwmRoot 						# Abre um menu na tela com opçoes nativas do Fvwm
+## Raising Window
+DestroyFunc RaiseMoveX
+AddToFunc RaiseMoveX
++ I Raise
++ M $0
++ D $1
+DestroyFunc RaiseMove
+AddToFunc RaiseMove
++ I Raise
++ M $0
+
+
+# Menus
+Mouse 1 R A Menu MenuFvwmRoot
+Mouse 2 R A WindowList
+Mouse 3 R A Exec exec sh ~/.fvwm/scripts/Tools.sh 	# Abre um menu na tela, que contem submenus
+
+# Janelas minimizas
+Mouse 1 I A Iconify off
+Mouse 3 I A Menu MenuIconOps
