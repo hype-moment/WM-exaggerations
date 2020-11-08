@@ -33,28 +33,28 @@ AddButtonStyle All Vector 2 1x1@4 1x1@4
 
 AddButtonStyle 2 \
 	ActiveUp (Pixmap $[icons]/1.png -- Flat) \
-	ActiveDown (Pixmap $[icons]/.png -- Flat) \
-	Inactive (Pixmap $[icons]/.png -- Flat)
+	ActiveDown (Pixmap $[icons]/0.png -- Flat) \
+	Inactive (Pixmap $[icons]/0.png -- Flat)
 
 AddButtonStyle 4 \
 	ActiveUp (Pixmap $[icons]/2.png -- Flat) \
-	ActiveDown (Pixmap $[icons]/.png -- Flat) \
-	Inactive (Pixmap $[icons]/.png -- Flat)
+	ActiveDown (Pixmap $[icons]/0.png -- Flat) \
+	Inactive (Pixmap $[icons]/0.png -- Flat)
 
 AddButtonStyle 6 \
 	ActiveUp (Pixmap $[icons]/3.png -- Flat) \
-	ActiveDown (Pixmap $[icons]/.png -- Flat) \
-	Inactive (Pixmap $[icons]/.png -- Flat)
+	ActiveDown (Pixmap $[icons]/0.png -- Flat) \
+	Inactive (Pixmap $[icons]/0.png -- Flat)
 
 AddButtonStyle 1 \
   ActiveUp (Pixmap $[icons]/4.png -- Flat) \
-  ActiveDown (Pixmap $[icons]/.png -- Flat) \
-  Inactive (Pixmap $[icons]/.png -- Flat)
+  ActiveDown (Pixmap $[icons]/0.png -- Flat) \
+  Inactive (Pixmap $[icons]/0.png -- Flat)
 
 AddButtonStyle 3 \
   ActiveUp (Pixmap $[icons]/5.png -- Flat) \
-  ActiveDown (Pixmap $[icons]/.png -- Flat) \
-  Inactive (Pixmap $[icons]/.png -- Flat)
+  ActiveDown (Pixmap $[icons]/0.png -- Flat) \
+  Inactive (Pixmap $[icons]/0.png -- Flat)
 
 #===================================================================
 # Essa é uma parte importante 
