@@ -2,6 +2,7 @@
 
 # Dependencias
 
+**imagemagick**
 **xorg-xwd**
 **xdotool**
 **wmctrl**
