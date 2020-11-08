@@ -1,26 +1,25 @@
-# > Double Click Delay
+#=======================================================
+# Aqui estarão todas as configuraçoes do mouse
+# exeto as das funçoes do cliques nos botões das janelas
+# esses estão em (window_decorrc)
+#=======================================================
+
+# Deley do click duplo
 ClickTime 250
 MoveThreshold 3
 
-## SloppyFocus Instead of ClickToFocusrestart
+# Estilo do focu com mouse
 Style * SloppyFocus, MouseFocusClickRaises
 
-AddToMenu MenuRoot "XDG Menus" Popup FvwmMenu PipeRead 'fvwm-menu-desktop'
+# açoes do mouse no titulo da janela
+Mouse 1 T A RaiseMoveX Move Maximize 				# Move a janelas
+Mouse 1 FS A RaiseMove Resize 						# Redimenciona a janela
+Mouse 4 T A WindowShade True 						# Enrrola a janela
+Mouse 5 T A WindowShade False 						# Desenrrola a janela
+#Mouse 3 T A Menu MenuWindowOps 					# Abre o menu de opçoes da janela
 
-## Titlebar Itself
-Mouse 1 T A RaiseMoveX Move Maximize
-Mouse 1 FS A RaiseMove Resize
-Mouse 4 T A WindowShade True
-Mouse 5 T A WindowShade False
-#Mouse 3 T A Menu MenuWindowOps
+Mouse 1 A 4 Move 									# Super + click direito do mouse dentro da janela, move a janela
 
-Mouse 1 A 4 Move
-
-## Rootmenu on The Desktop
-Mouse 1 R A Menu MenuFvwmRoot
-Mouse 3 R A WindowList
-Mouse 2 R A Menu MenuWindowOpsLong
-
-## On minimized windows
-Mouse 1 I A Iconify off
-Mouse 3 T A Resize
+## Menus
+Mouse 1 R A Exec exec sh ~/.fvwm/scripts/Tools.sh 	# Abre um menu na tela, que contem submenus
+Mouse 3 R A Menu MenuFvwmRoot 						# Abre um menu na tela com opçoes nativas do Fvwm

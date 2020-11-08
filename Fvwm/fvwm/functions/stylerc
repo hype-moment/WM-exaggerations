@@ -1,35 +1,44 @@
-# > Default Font
+#==============================================================================
+# Aqui estao os estilos e comportamentos da maioria da ferramentas do sistemas
+#==============================================================================
+
+# Fonte padrao do sistema, da barra de titulus e dos menus
 DefaultFont "xft:Nasa :size=12"
 
-# > Place It On Center instead of MinOverlapPlacement
+# Posiciona algumas janelas ao centro, porem nao funciona com todas
 Style * PositionPlacement Center
 Style * !GrabFocusOff, UsePPosition
 
-## Transient Windows, Such as Open File Windows
+# Janelas temporárias, como janelas de arquivos abertos
 Style * DecorateTransient, StackTransientParent
 Style * FPGrabFocusTransient, FPReleaseFocusTransient
 
-## Window Shade / Roll Up
+# Enrrolar e desenrrolar as janelas
+# Estilo e velocidade
 Style * WindowShadeScrolls, WindowShadeSteps 30
 
-## Disable Icons from Appearing on Desktop
+# Desative a exibição de ícones na área de trabalho
 Style * !Icon
 
+# Desativa o efeti de grade a mo mover ou redimencionar uma janela
 Style * CascadePlacement
-
-# Sets all windows to OpaqueMove (vs a wired frame) and  windows will
-# snap to each other and the edge of the screen.
-
 OpaqueMoveSize unlimited
 Style * ResizeOpaque, SnapAttraction 50 SameType ScreenAll, SnapGrid
 
+#==========================================================
+# Estilo de algumas barras e algumas janelas
+# por padrao o Fvwm trata quase tudo como uma janela comum
+# entao algumas configuraçoe se fazem importantes
+#==========================================================
+
 Style tint2 !Title, PositionPlacement Right, !Borders, !Handles, Sticky, \
-                 !WindowListSkip, !NeverFocus, Layer 6
+                 !WindowListSkip, !NeverFocus
 
 Style xfce4-panel !Title, PositionPlacement Right, !Borders, Handles, Sticky, \
-                 WindowListSkip, NeverFocus, Layer 1
+                 WindowListSkip, NeverFocus
 
-Style plank !Title, !Borders
+Style plank !Title, PositionPlacement Right, !Borders, Handles, Sticky, \
+                 
 
 Style feh PositionPlacement Center, !Title, Borders
 
@@ -49,7 +58,7 @@ Style krita PositionPlacement Center
 
 Style ConfirmQuit !Title, PositionPlacement Center, WindowListSkip, Layer 6
 
-
+# Nomes das areas de trabalho virtuais
 DesktopSize 3x3
 DesktopName 0 1
 DesktopName 1 2
@@ -62,16 +71,23 @@ DesktopName 7 8
 DesktopName 8 9
 DesktopName 9 10
 
-## Workspace
+#======================
+# Configuraçoes extras
+#======================
+
+# Com essa opçao marcada com (0 0) sera evitado que se mude de area de trabalho
+# ao encostar o ponteiro do mouse nas estremidades da tela
 EdgeScroll 0 0
 EdgeResistance 0
 EdgeThickness 0
 Style * EdgeMoveDelay 350
 Style * EdgeMoveResistance 350
-# > EmwhBaseStruts [left] [right] [top] [bottom]
-EwmhBaseStruts 		 15     15 	    10	   10
 
-# Hide geometry window when moving and resizing
+# Distancia das janelas referente as bordas
+#                [Esquerda]  [Direita] [Topo]  [Baixo]
+EwmhBaseStruts 		 15     	15 	     10	     10
+
+# Ocultar janela de geometria ao mover e redimensionar
 HideGeometryWindow    Always
 Style * BorderUnderTitle
 Style * ResizeOutlineThin
