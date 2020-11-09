@@ -11,7 +11,7 @@
 # Programas usados
 
 **thunar**
-**picom**
+**picom-rounded-corners**
 **feh**
 **rofi**
 **tint2**
