@@ -17,4 +17,3 @@ rm -f "$dir"/"$wid".png
 cat <<END
 DestroyWindowStyle
 END
-

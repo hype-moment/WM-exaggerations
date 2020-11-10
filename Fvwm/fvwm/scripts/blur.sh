@@ -20,10 +20,10 @@ if [[ "$1" != "--worker" ]]; then
   export BLUR_IMAGE_SAVE_LOCATION=""
 
   # Interval between frames in an animation
-  export ANIMATION_INTERVAL=0.1
+  export ANIMATION_INTERVAL=0.12
 
   # Fade in and out?
-  export ANIMATE_FADE=0
+  export ANIMATE_FADE=10
 
   # Interval to check with wmctrl
   export POLL_INTERVAL=0.1

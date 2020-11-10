@@ -14,7 +14,7 @@ stop=" Stop"
 # Variable passed to rofi
 Print="$go\n$prev\n$play\n$pause\n$next\n$stop"
 
-Look="$(echo -e "$Print" | $rofi_theme -p " " -dmenu -selected-row 2)"
+Look="$(echo -e "$Print" | $rofi_theme -p "$music" -dmenu -selected-row 2)"
 case $Look in
 
 $go) mpd 	;;
