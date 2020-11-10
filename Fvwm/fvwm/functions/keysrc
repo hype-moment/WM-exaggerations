@@ -38,6 +38,11 @@ Key XF86AudioRaiseVolume A A Exec pactl set-sink-volume 0 +5%  # > Volume +5
 Key XF86AudioLowerVolume A A Exec pactl set-sink-volume 0 -5%  # > Volume -5
 Key XF86AudioMute A A Exec pactl set-sink-mute 0 toggle 	      # > Volume Muted
 
+# Thumbnail
+
+Key d A 4S DeThumbnail
+Key T a 4S Thumbnail
+
 # Controle de volume (Alsa)
 
 # Esse comando do teclado ira tirar um print da tela
