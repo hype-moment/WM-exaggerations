@@ -33,7 +33,7 @@ inputbar {
     children:                       [ textbox-prompt-colon];
     expand:                         false;
     background-color:               rgba(0, 0, 0, 0.0);
-    margin:                         0px 8% 0px 6%;
+    margin:                         0px 0px 0px 6%;
     padding:                        0px 4px 4px 4px;
     position:                       center;
 }
@@ -46,7 +46,7 @@ case-indicator {
 }
 
 listview {
-    background-color:               rgba(0, 0, 0, 0.0);
+    background-color:               rgba(0, 0, 0, 0.1);
     margin:                         0% 0% 0% 0%;
     spacing:                        1%;
     cycle:                          false;
