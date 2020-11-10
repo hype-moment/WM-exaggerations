@@ -5,7 +5,7 @@
 
 # Cores das janelas 
  Colorset 1 RootTransparent buffer, fg #FFFFFF, bg average, \
-     Tint #F5F5F5 80    # O 80 representa a porcentagem de alfa da janela "Transparencia"
+     Tint #121212 80
 
 AddTitleStyle Colorset NN PP
    Style * TitleAtTop                           # Posiçao da barra de titulos
@@ -32,19 +32,19 @@ ButtonStyle All -- UseTitleStyle
 AddButtonStyle All Vector 2 1x1@4 1x1@4
 
 AddButtonStyle 2 \
-	ActiveUp (Pixmap $[icons]/1.png -- Flat) \
-	ActiveDown (Pixmap $[icons]/0.png -- Flat) \
-	Inactive (Pixmap $[icons]/0.png -- Flat)
+  ActiveUp (Pixmap $[icons]/1.png -- Flat) \
+  ActiveDown (Pixmap $[icons]/0.png -- Flat) \
+  Inactive (Pixmap $[icons]/0.png -- Flat)
 
 AddButtonStyle 4 \
-	ActiveUp (Pixmap $[icons]/2.png -- Flat) \
-	ActiveDown (Pixmap $[icons]/0.png -- Flat) \
-	Inactive (Pixmap $[icons]/0.png -- Flat)
+  ActiveUp (Pixmap $[icons]/2.png -- Flat) \
+  ActiveDown (Pixmap $[icons]/0.png -- Flat) \
+  Inactive (Pixmap $[icons]/0.png -- Flat)
 
 AddButtonStyle 6 \
-	ActiveUp (Pixmap $[icons]/3.png -- Flat) \
-	ActiveDown (Pixmap $[icons]/0.png -- Flat) \
-	Inactive (Pixmap $[icons]/0.png -- Flat)
+  ActiveUp (Pixmap $[icons]/3.png -- Flat) \
+  ActiveDown (Pixmap $[icons]/0.png -- Flat) \
+  Inactive (Pixmap $[icons]/0.png -- Flat)
 
 AddButtonStyle 1 \
   ActiveUp (Pixmap $[icons]/4.png -- Flat) \
