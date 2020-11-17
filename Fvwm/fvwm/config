@@ -14,7 +14,7 @@ SetEnv cache $[HOME]/.fvwm/cache/
 SetEnv scripts $[HOME]/.fvwm/scripts
 
 # Local onde estão localizados os icones
-SetEnv icons $[HOME]/.fvwm/icons/w10
+SetEnv icons $[HOME]/.fvwm/icons/wcircles
 
 #=========================================================
 # Chamadas dos modulos de configuraçoes.

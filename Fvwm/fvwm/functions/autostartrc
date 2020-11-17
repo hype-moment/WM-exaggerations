@@ -19,7 +19,7 @@ AddToFunc InitFunction
 + I Exec exec sh ~/.fvwm/scripts/tint2-launcher.sh
 
 # Ira iniciar o picom, responssavel pela tranparencia e composição
-+ I Exec exec picom 
++ I Exec exec picom --config ~/.fvwm/picom.conf 
 
 # Ira iniciar a o lançador de programas plank
 + I Exec exec plank 

@@ -9,9 +9,10 @@ icons=""
 shot=""
 play=""
 mode=""
+colors=""
 
 # Variable passed to rofi
-Print="$position\n$mode\n$icons\n$shot\n$play"
+Print="$position\n$mode\n$icons\n$shot\n$play\n$colors"
 
 look="$(echo -e "$Print" | $rofi_theme -p " " -dmenu -selected-row 0)"
 case $look in
@@ -29,4 +30,7 @@ case $look in
         ;;
     $mode)
         sh ~/.fvwm/scripts/mode.sh
+        ;;
+    $colors) 
+        sh ~/.fvwm/scripts/colors.sh
 esac

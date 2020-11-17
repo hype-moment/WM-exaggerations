@@ -3,7 +3,7 @@
 #==============================================================================
 
 # Fonte padrao do sistema, da barra de titulus e dos menus
-DefaultFont "xft:Nasa :size=12"
+DefaultFont "xft:Nasa :size=0"
 
 # Posiciona algumas janelas ao centro, porem nao funciona com todas
 Style * PositionPlacement Center

@@ -1,5 +1,5 @@
 configuration {
-    font:                           "Ubuntu 12";
+    font:                           "Ubuntu 10";
     drun-display-format:            "{name}";
     disable-history:                false;
     fullscreen:                     false;
@@ -23,7 +23,7 @@ window {
 
 textbox-prompt-colon {
     expand:                         true;
-    str:                            "|Fvwm Tools|           Window bar position                                                 Mode                                                   Window icons                                          Screenshot tools                                             Music PLayer";   
+    str:                            "|Fvwm Tools|                 Window bar position                                                       Mode                                                        Window icons                                                   Screenshot tools                                                    Music PLayer                                                              Colors";   
     background-color:               #88BBEE;
     text-color:                     #FFFFFF;
     padding:                        -25px 0px 4px -120px;
@@ -67,7 +67,7 @@ element {
     text-color:                     #FFFFFF;
     orientation:                    horizontal;
     border-radius:                  0px;
-    padding:                        -45px 0px 0px 110px;
+    padding:                        -45px 0px 0px 75px;
 }
 
 element-icon {

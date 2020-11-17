@@ -1,7 +1,5 @@
 configuration {
-    font:                           "FantasqueSansMono Nerd Font 14";
-    show-icons:                     false;
-    icon-theme:                     "Papirus";
+    font:                           "iosevka 14";
     drun-display-format:            "{name}";
     disable-history:                false;
     fullscreen:                     false;
@@ -14,9 +12,9 @@ window {
     background-color:               rgba(0, 0, 0, 0.9);
     text-color:                     #FFFFFF;
     border:                         1% 0% 0% 0%;
-    border-color:                   #F12345;
+    border-color:                   #F56F7F;
     border-radius:                  0px;
-    height:                         15%;
+    height:                         35%;
     width:                          100%;
     location:                       center;
     x-offset:                       0;
@@ -25,8 +23,8 @@ window {
 
 textbox-prompt-colon {
     expand:                         true;
-    str:                            "Select Icons Windows Bar";
-    background-color:               #F12345;
+    str:                            "Select color window";
+    background-color:               #F56F7F;
     text-color:                     #FFFFFF;
     padding:                        -25px 0px 4px -120px;
 }
@@ -50,10 +48,11 @@ case-indicator {
 listview {
     background-color:               rgba(0, 0, 0, 0.0);
     margin:                         0% 0% 0% 0%;
-    spacing:                        1%;
-    cycle:                          false;
+    spacing:                        0%;
+    columns:                        4;
+    cycle:                          true;
     dynamic:                        true;
-    layout:                         horizontal;
+    layout:                         vertical;
 }
 
 mainbox {
@@ -68,7 +67,7 @@ element {
     text-color:                     #FFFFFF;
     orientation:                    horizontal;
     border-radius:                  0px;
-    padding:                        -50px 0px 0px 85px;
+    padding:                        -40px 0px 0px 0px;
 }
 
 element-icon {
@@ -77,11 +76,11 @@ element-icon {
 }
 
 element-text {
-    font:                           "feather 32";
+    font:                           "iosevka 20";
     expand:                         true;
     horizontal-align:               0.5;
     vertical-align:                 0.5;
-    margin:                         30px 30px 30px 35px;
+    margin:                         30px 0px 30px 0px;
 }
 
 element normal.active,
@@ -92,7 +91,7 @@ element alternate.active {
 
 element selected {
     background-color:               rgba(0, 0, 0, 0.0);
-    text-color:                     #F12345;
+    text-color:                     #F56F7F;
     border:                         0px;
     border-radius:                  0px;
     border-color:                   #121212;

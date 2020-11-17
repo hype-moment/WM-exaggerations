@@ -1,8 +1,8 @@
 configuration {
-	font: "Inter Regular 10";
+	font: "Ubuntu 10";
 	show-icons: true;
 	drun-display-format: "{name}";
-	fullscreen: false;
+	fullscreen: true;
 	threads: 0;
 	matching: "fuzzy";
 	scroll-method: 0;
@@ -12,9 +12,9 @@ configuration {
 }
 
 * {
-	transparent: rgba(0, 0, 0, 0.0);
-	foreground: #F2F2F2EE;
-	background-selected: rgba(210, 0, 210, 0.2);
+	transparent: rgba(0, 0, 0, 0.9);
+	foreground: #F2F2F2;
+	background-selected: rgba(210, 210, 210, 0.2);
 	background-active: #F12345;
 	background-white: rgba(0, 0, 0, 0.1);
 	background-black: rgba(0, 0, 0, 0.1);
