@@ -40,3 +40,11 @@
 ### Ferramentas de customização
 
 ![alt text](https://github.com/hype-moment/WM-exaggerations/blob/main/exemplos/toos.png)
+
+Voce pode usar esse menu para customizar varios aspectos do Fvwm como. 
+***A posição da barra das janelas*** 
+***Alternar entre os temas claro e escuro*** 
+***Selecionar diferentes icones da barra de janelas*** 
+***Tirar prints da tela de maneira instantanea, com time ou com a opção de recorte*** 
+***Controlar o player de musica "mpd"*** 
+***Selecionar a cor que voce mais gosta para ser o padrao das barras de janela***
