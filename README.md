@@ -49,6 +49,15 @@ Voce pode usar esse menu para customizar varios aspectos do Fvwm como.
 - ***Controlar o player de musica "mpd"*** 
 - ***Selecionar a cor que voce mais gosta para ser o padrao das barras de janela*** 
 
+# Icones da janelas
+
+![alt text](https://github.com/hype-moment/WM-exaggerations/blob/main/exemplos/wicons.png)
+
+![alt text](https://github.com/hype-moment/WM-exaggerations/blob/main/exemplos/Wicons.png)
+
+Voce pode escolher entre alguns conjuntos de icones para suas janelas. 
+Escolha uma car e um tema de icones para fazer a melhor combinação.
+
 # Cores das barras de titulos das janelas
 
 ![alt text](https://github.com/hype-moment/WM-exaggerations/blob/main/exemplos/color.png)
