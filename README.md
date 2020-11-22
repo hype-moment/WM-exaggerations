@@ -34,3 +34,9 @@
 ###### Copie picom.conf para ~/.config (cp picom.conf ~/.config)
 ###### Entre em ~/.config/plank (cd  ~/.config/plank)
 ###### Copie Simple para /usr/share/plank/themes (sudo cp -r Simple /usr/share/plank/themes)
+
+# Apresentação
+
+### Ferramentas de customização
+
+![alt text](https://github.com/hype-moment/WM-exaggerations/blob/main/exemplos/toos.png)
