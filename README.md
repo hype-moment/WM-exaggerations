@@ -49,6 +49,11 @@ Voce pode usar esse menu para customizar varios aspectos do Fvwm como.
 - ***Controlar o player de musica "mpd"*** 
 - ***Selecionar a cor que voce mais gosta para ser o padrao das barras de janela*** 
 
-# Posição da barra de titulos das janelas
+# Cores das barras de titulos das janelas
 
-![alt text](https://github.com/hype-moment/WM-exaggerations/blob/main/exemplos/Wposition.png)
+![alt text](https://github.com/hype-moment/WM-exaggerations/blob/main/exemplos/color.png)
+
+![alt text](https://github.com/hype-moment/WM-exaggerations/blob/main/exemplos/Colors.png)
+
+Voce pode elternar entre diverssas cores, usando assim a que mais te agrada. 
+Ate o momento sao 13 cores para escolher
