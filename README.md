@@ -56,7 +56,7 @@ Voce pode usar esse menu para customizar varios aspectos do Fvwm como.
 ![alt text](https://github.com/hype-moment/WM-exaggerations/blob/main/exemplos/Wicons.png)
 
 Voce pode escolher entre alguns conjuntos de icones para suas janelas. 
-Escolha uma car e um tema de icones para fazer a melhor combinação.
+Escolha uma cor e um tema de icones para fazer a melhor combinação.
 
 # Cores das barras de titulos das janelas
 
