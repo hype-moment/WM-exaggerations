@@ -47,4 +47,8 @@ Voce pode usar esse menu para customizar varios aspectos do Fvwm como.
 - ***Selecionar diferentes icones da barra de janelas*** 
 - ***Tirar prints da tela de maneira instantanea, com time ou com a opção de recorte*** 
 - ***Controlar o player de musica "mpd"*** 
-- ***Selecionar a cor que voce mais gosta para ser o padrao das barras de janela***
+- ***Selecionar a cor que voce mais gosta para ser o padrao das barras de janela*** 
+
+# Posição da barra de titulos das janelas
+
+![alt text](https://github.com/hype-moment/WM-exaggerations/blob/main/exemplos/Wposition.png)
