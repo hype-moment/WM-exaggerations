@@ -49,6 +49,21 @@ Voce pode usar esse menu para customizar varios aspectos do Fvwm como.
 - ***Controlar o player de musica "mpd"*** 
 - ***Selecionar a cor que voce mais gosta para ser o padrao das barras de janela*** 
 
+# Selecione o seu tema favorito
+
+![alt text](https://github.com/hype-moment/WM-exaggerations/blob/main/exemplos/mode.png)
+
+### Dark Mode
+
+![alt text](https://github.com/hype-moment/WM-exaggerations/blob/main/exemplos/Dark.png)
+
+### Light mode
+
+![alt text](https://github.com/hype-moment/WM-exaggerations/blob/main/exemplos/Light.png)
+
+As configuraçoes contam com dois temas classicos, o tema "Dark" e o tema "Light". 
+Com eles serao alterados todos os aspectos da interface de maneira altomatica.
+
 # Posição das barras de titulos
 
 ![alt text](https://github.com/hype-moment/WM-exaggerations/blob/main/exemplos/wposition.png)
@@ -73,4 +88,4 @@ Escolha uma cor e um tema de icones para fazer a melhor combinação.
 ![alt text](https://github.com/hype-moment/WM-exaggerations/blob/main/exemplos/Colors.png)
 
 Voce pode elternar entre diverssas cores, usando assim a que mais te agrada. 
-Ate o momento sao 13 cores para escolher
+Ate o momento sao mais de 10 cores para escolher
