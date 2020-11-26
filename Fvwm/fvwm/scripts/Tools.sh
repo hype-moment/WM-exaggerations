@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 
-#rofi_theme="rofi -theme ~/.config/rofi/Power-Menus/Power2.rasi"
-rofi_theme="rofi -theme ~/.fvwm/rofi/tools.rasi"
+rofi_theme="rofi -theme ~/.fvwm/rofi/Tools.rasi"
 
 # Options
 position=""

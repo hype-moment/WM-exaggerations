@@ -20,13 +20,13 @@ if [[ "$1" != "--worker" ]]; then
   export BLUR_IMAGE_SAVE_LOCATION=""
 
   # Interval between frames in an animation
-  export ANIMATION_INTERVAL=0.12
+  export ANIMATION_INTERVAL=0.22
 
   # Fade in and out?
-  export ANIMATE_FADE=10
+  export ANIMATE_FADE=60
 
   # Interval to check with wmctrl
-  export POLL_INTERVAL=0.1
+  export POLL_INTERVAL=0.12
 
   # The verbosity. --verbose sets this to 2, and --quiet sets it to 0.
   export VERBOSE=1

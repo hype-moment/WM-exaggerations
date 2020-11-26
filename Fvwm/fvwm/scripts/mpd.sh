@@ -1,6 +1,6 @@
 #/bin/bash
 
-rofi_theme="rofi -theme ~/.fvwm/rofi/mpd.rasi"
+rofi_theme="rofi -theme ~/.fvwm/rofi/Mpd.rasi"
 music=$(mpc current)
 
 # Options
@@ -8,8 +8,8 @@ prev=""
 play=""
 pause=""
 next=""
-go=" Play"
-stop=" Stop"
+go=" Start"
+stop=" Exit"
 
 # Variable passed to rofi
 Print="$go\n$prev\n$play\n$pause\n$next\n$stop"

@@ -16,8 +16,8 @@ configuration {
 	foreground: #F2F2F2;
 	background-selected: rgba(210, 210, 210, 0.2);
 	background-active: #F12345;
-	background-white: rgba(0, 0, 0, 0.1);
-	background-black: rgba(0, 0, 0, 0.1);
+	background-white: rgba(200, 200, 200, 0.9);
+	background-black: rgba(0, 0, 0, 0.9);
 	urgent: #E91E6366;
 	urgent-selected: #E91E6377;
 }
@@ -110,7 +110,7 @@ element {
 }
 
 element-icon {
-	size: 72px;
+	size: 52px;
 	border: 0;
 }
 

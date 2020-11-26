@@ -1,6 +1,6 @@
 #/bin/bash
 
-rofi_theme="rofi -theme ~/.fvwm/rofi/mode.rasi"
+rofi_theme="rofi -theme ~/.fvwm/rofi/Mode.rasi"
 
 # Options
 light=""

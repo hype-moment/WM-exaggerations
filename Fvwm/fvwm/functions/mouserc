@@ -32,7 +32,7 @@ AddToFunc RaiseMove
 + M $0
 
 # Menus
-Mouse 3 R A Exec exec sh ~/.fvwm/scripts/Tools.sh 	# Abre um menu na tela, que contem submenus
+Mouse 1 R A Exec exec sh ~/.fvwm/scripts/Tools.sh 	# Abre um menu na tela, que contem submenus
 
 # Janelas minimizas
 Mouse 1 I A Iconify off

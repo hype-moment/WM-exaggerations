@@ -68,7 +68,7 @@ element {
     text-color:                     #FFFFFF;
     orientation:                    horizontal;
     border-radius:                  0px;
-    padding:                        -50px 0px 0px 85px;
+    padding:                        -50px 0px 0px 45px;
 }
 
 element-icon {

@@ -1,6 +1,6 @@
 #/bin/bash
 
-rofi_theme="rofi -theme ~/.fvwm/rofi/WindowPosition.rasi"
+rofi_theme="rofi -theme ~/.fvwm/rofi/Window_Position.rasi"
 
 # Options
 top=" Top"
