@@ -14,11 +14,13 @@ case $Look in
 
 $dark) sed -i 's/gtk-theme-name=.*/gtk-theme-name=Midnight/g' ~/.config/gtk-3.0/settings.ini
 sed -i 's/gtk-theme-name=.*/gtk-theme-name="Midnight"/g' ~/.gtkrc-2.0
+sed -i 's/background_color = .*/background_color = #121212 50/g' ~/.config/tint2/tint2rc
 pkill tint2
-tint2 -c ~/.config/tint2/Dark.tint2rc
+tint2
 ;;
 $light) sed -i 's/gtk-theme-name=.*/gtk-theme-name=Midday/g' ~/.config/gtk-3.0/settings.ini
 sed -i 's/gtk-theme-name=.*/gtk-theme-name="Midday"/g' ~/.gtkrc-2.0
+sed -i 's/background_color = .*/background_color = #F5F5F5 50/g' ~/.config/tint2/tint2rc
 pkill tint2
-tint2 -c ~/.config/tint2/Light.tint2rc 
+tint2 
 esac
