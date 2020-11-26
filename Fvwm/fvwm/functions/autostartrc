@@ -14,15 +14,14 @@ AddToFunc InitFunction
 # Ira iniciar o script que borra a imagem de fundo ao abrir uma janela 
 + I Exec exec sh ~/.fvwm/scripts/blur.sh
 
-# Esse script escolhe de forma altomatica qual painel deve iniciar com o sistema.
-# O tema claro ou o escuro. 
-+ I Exec exec sh ~/.fvwm/scripts/tint2-launcher.sh
-
 # Ira iniciar o picom, responssavel pela tranparencia e composição
 + I Exec exec picom --config ~/.fvwm/picom.conf 
 
 # Ira iniciar a o lançador de programas plank
 + I Exec exec plank 
+
+# Ira iniciar a o painel tint2
++ I Exec exec tint2
 
 # Ira iniciar o icone de controle de volume
 + I Exec exec volumeicon 
